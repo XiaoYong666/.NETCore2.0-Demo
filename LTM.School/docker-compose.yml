@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ltm.school:
+    image: ltm.school
+    build:
+      context: .
+      dockerfile: LTM.School\Dockerfile
